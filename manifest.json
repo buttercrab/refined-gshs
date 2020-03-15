@@ -20,8 +20,6 @@
 		"default_icon": {
 			"16": "img/favicon-16x16.png",
 			"32": "img/favicon-32x32.png",
-			"48": "img/favicon-48x48.png",
-			"64": "img/favicon-64x64.png",
 			"128": "img/favicon-128x128.png"
 		},
 		"default_title": "Refined GSHS"
@@ -29,8 +27,6 @@
 	"icons": {
 		"16": "img/favicon-16x16.png",
 		"32": "img/favicon-32x32.png",
-		"48": "img/favicon-48x48.png",
-		"64": "img/favicon-64x64.png",
 		"128": "img/favicon-128x128.png"
 	}
 }
