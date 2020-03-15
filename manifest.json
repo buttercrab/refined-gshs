@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "GSHS auto login",
+	"version": "1.0.0",
+	"content_scripts": [
+		{
+			"matches": [
+				"http://student.gs.hs.kr/student/index.do"
+			],
+			"js": [
+				"js/content.js"
+			]
+		}
+	],
+	"permissions": [
+		"storage"
+	],
+	"browser_action": {
+		"default_popup": "html/popup.html"
+	}
+}
