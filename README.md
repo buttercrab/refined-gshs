@@ -5,7 +5,7 @@
 # 기능
 
 - 자동 로그인
-- 로그인 풀림 후 자동 복귀 (예정 #2)
+- 로그인 풀림 후 자동 복귀 (예정 [#2](https://github.com/buttercrab/refined-gshs/issues/2))
 
 # 설치방법
 
