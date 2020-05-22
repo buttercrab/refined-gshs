@@ -5,7 +5,7 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"http://student.gs.hs.kr/student/index.do"
+				"http://student.gs.hs.kr/student/*"
 			],
 			"js": [
 				"js/content.js"
