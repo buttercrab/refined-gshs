@@ -1,7 +1,21 @@
-chrome.storage.local.get(["login"], function(items){
-    items = items['login'];
-    if(items.userId === undefined || items.userPw === undefined) return;
-    document.getElementById("tempUserId").value = items.userId;
-    document.getElementById("tempPwd").value = items.userPw;
-    document.getElementsByClassName("btn btn-primary btn-flat pull-right")[0].click();
-});
+function saveUserData(id, pw, callback) {
+    chrome.storage.local.set({
+        "login": {
+            "userId": id,
+            "userPw": pw,
+        },
+    }, callback);
+}
+
+if (document.getElementById("tempUserId") != null) {
+    // Login Page
+    let e = document.getElementById("user");
+    chrome.storage.local.get(["login"], function (items) {
+        items = items['login'];
+        document.getElementById("tempUserId").value = items.userId;
+        document.getElementById("tempPwd").value = items.userPw;
+        document.getElementsByClassName("btn btn-primary btn-flat pull-right")[0].click();
+    });
+} else {
+    // Main Page
+}

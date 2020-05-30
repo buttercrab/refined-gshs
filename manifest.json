@@ -5,15 +5,22 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"http://student.gs.hs.kr/student/index.do"
+				"http://student.gs.hs.kr/**"
 			],
 			"js": [
 				"js/content.js"
 			]
 		}
 	],
+	"background": {
+		"scripts": [
+			"js/background.js"
+		],
+		"persistent": false
+	},
 	"permissions": [
-		"storage"
+		"storage",
+		"tabs"
 	],
 	"browser_action": {
 		"default_popup": "html/popup.html",

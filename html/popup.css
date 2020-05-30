@@ -1,0 +1,10 @@
+#github {
+    color: #888;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 6px;
+}
+
+.placeholder {
+    height: 15px;
+}
