@@ -1,5 +1,5 @@
-let url = window.location.href;
-if (url !== 'https://student.gs.hs.kr/student/logout.do') {
+let path = window.location.pathname;
+if (path !== '/student/logout.do') {
     if (document.getElementsByClassName("register-page")[0] !== undefined) {
         // Login Page
         chrome.storage.local.get(["login"], function (items) {
