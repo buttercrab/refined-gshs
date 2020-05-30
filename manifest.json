@@ -2,6 +2,7 @@
 	"manifest_version": 2,
 	"name": "Refined GSHS",
 	"version": "1.0.0",
+	"description": "Refine the GSHS website (auto login)",
 	"content_scripts": [
 		{
 			"matches": [
