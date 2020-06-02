@@ -2,12 +2,14 @@
 
 송죽학사를 위한 크롬 익스텐션
 
+[Chrome Web Store](https://chrome.google.com/webstore/detail/refined-gshs/piopphdlhfmploedlfopalilllofaeld) 에서 설치하세요.
+
 # 기능
 
 - 자동 로그인
 - 로그인 풀림 후 자동 복귀 (예정 [#2](https://github.com/buttercrab/refined-gshs/issues/2))
 
-# 설치방법
+# 직접 설치방법
 
 1. 이 레포를 클론하거나 다운받는다. (압축해제)
 2. [chrome://extensions/](chrome://extensions/)에 들어간다.
